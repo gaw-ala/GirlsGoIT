@@ -2,18 +2,22 @@
 <html lang="en">
 
     <head>
-        
+        <!-- Metadata -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Title -->
         <title>Good movies</title>
+
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <!-- Navbar -->
         <nav>
-            <a href="index.html">Good movies</a>
+            <a href="index.html"><h1 class="color-yellow">Good movies</h1></a>
 
-            <form>
+            <form class="wprowadzenie">
                 <input type="search" placeholder="Jak wytresować pingwina?" size="25" aria-label="Search">
                 <button>
                     Szukaj
@@ -21,8 +25,8 @@
             </form>
 
             <div>
-                <a href="my_profile.html">Mój profil</a>
-                <a href="login.html">Zaloguj</a>
+                <button class="guzik"><a href="my_profile.html" class="nowy">Mój profil</a></button>
+                <button class="guzik"><a href="login.html" class="nowy">Zaloguj</a></button>
             </div>
         </nav>
 
@@ -33,15 +37,15 @@
                 
                 <div>
                     <img src="img/tapeta.jpg" alt="widoczek" width="200">
-                    <h4> IMIĘ NAZWISKO </h4>
+                    <h4 class="big"> IMIĘ NAZWISKO </h4>
                     <div>Konto aktywne od 09.12.2021</div>
                 </div>
 
                 <ul>
-                    <li><a href="#">Recenzje</a></li>
-                    <li><a href="#">Polecone</a></li>
-                    <li><a href="#">Ocenione</a></li>
-                    <li><a href="#">Ulubione</a></li>
+                    <li class="wykropkowania"><a href="#">Recenzje</a></li>
+                    <li class="wykropkowania"><a href="#">Polecone</a></li>
+                    <li class="wykropkowania"><a href="#">Ocenione</a></li>
+                    <li class="wykropkowania"><a href="#">Ulubione</a></li>
                 </ul>
 
             </section>
@@ -50,7 +54,7 @@
 
         <!-- Footer -->
         <footer>
-            <div>All rights reserved © 2021</div>
+            <div style="color:white">All rights reserved © 2021</div>
         </footer>
 
     </body>
