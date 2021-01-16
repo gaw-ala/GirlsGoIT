@@ -1,26 +1,50 @@
-nav{background-color: gray;
-padding: 16px;
-margin-bottom: 15px
-}
-.guzik{background-color: gray;
-border-color: yellow;
-border: 20px}
-.color-yellow{font-size:30px;
-color:yellow;
-font-variant: small-caps}
-.big{font-size: x-large}
-.wprowadzenie{margin-bottom: 10px}
-.nowy{color: yellow;
-padding:5px;
-margin-bottom: 10px;
-border: 16px;
-border-color: yellow;
-font-size:large}
-footer{background-color: gray;
-    padding: 10px;
-    margin-top: 10px;}
-.wykropkowania{color: navy;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+* {
+    font-family: Verdana;
+  }
+  
+  nav, footer {
+    background-color: #343a40;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  nav a {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  nav > a:first-child {
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
     font-weight: bold;
-}
+  }
+  
+  nav form {
+    margin-bottom: 5px;
+  }
+  
+  nav button {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    padding: 3px 5px;
+  }
+  
+  img {
+    border: 2px solid grey;
+    margin: 5px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  ul li a {
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
